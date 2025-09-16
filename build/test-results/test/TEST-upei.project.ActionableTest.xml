@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="upei.project.ActionableTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-09-16T17:39:52" hostname="D28D" time="0.037">
+  <properties/>
+  <testcase name="testPerformActionIncreasesExpeditionLoot()" classname="upei.project.ActionableTest" time="0.023"/>
+  <testcase name="testPerformActionForcesPlayerExit()" classname="upei.project.ActionableTest" time="0.011"/>
+  <system-out><![CDATA[Test Player strides boldly into the cave
+Disaster! Test Player was forced out of the cave and lost all their loot!
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

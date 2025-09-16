@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="upei.project.ExpeditionDeckTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2025-09-16T17:39:52" hostname="D28D" time="0.033">
+  <properties/>
+  <testcase name="testInitialDeckSize()" classname="upei.project.ExpeditionDeckTest" time="0.008"/>
+  <testcase name="testTreasureTokenCount()" classname="upei.project.ExpeditionDeckTest" time="0.004"/>
+  <testcase name="testTrapTokenCount()" classname="upei.project.ExpeditionDeckTest" time="0.001"/>
+  <testcase name="testShowCardRemovesToken()" classname="upei.project.ExpeditionDeckTest" time="0.004"/>
+  <testcase name="testRelicTokenCount()" classname="upei.project.ExpeditionDeckTest" time="0.001"/>
+  <testcase name="testShuffleChangesOrder()" classname="upei.project.ExpeditionDeckTest" time="0.002"/>
+  <testcase name="testDrawTokenFromEmptyDeck()" classname="upei.project.ExpeditionDeckTest" time="0.002"/>
+  <system-out><![CDATA[No more tokens in the deck!
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

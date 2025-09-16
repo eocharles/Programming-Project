@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="upei.project.TokenDecisionTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-09-16T17:39:52" hostname="D28D" time="0.011">
+  <properties/>
+  <testcase name="decisionTokenToStringProvidesCorrectOutput()" classname="upei.project.TokenDecisionTest" time="0.002"/>
+  <testcase name="decisionTokenEqualityCheck()" classname="upei.project.TokenDecisionTest" time="0.004"/>
+  <testcase name="decisionTokenHasCorrectTitle()" classname="upei.project.TokenDecisionTest" time="0.001"/>
+  <testcase name="decisionTokenActivateDoesNotThrowException()" classname="upei.project.TokenDecisionTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

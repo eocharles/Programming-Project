@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="upei.project.PlayersTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2025-09-16T17:39:52" hostname="D28D" time="0.017">
+  <properties/>
+  <testcase name="testForceExit()" classname="upei.project.PlayersTest" time="0.001"/>
+  <testcase name="testStrategy()" classname="upei.project.PlayersTest" time="0.002"/>
+  <testcase name="testPlayerInitialization()" classname="upei.project.PlayersTest" time="0.001"/>
+  <testcase name="testSetAndGetTotalDiamond()" classname="upei.project.PlayersTest" time="0.0"/>
+  <testcase name="testLeavingTheTemple()" classname="upei.project.PlayersTest" time="0.001"/>
+  <testcase name="testSetAndGetExpeditionLoot()" classname="upei.project.PlayersTest" time="0.001"/>
+  <testcase name="testDepositLoot()" classname="upei.project.PlayersTest" time="0.001"/>
+  <testcase name="testSetAndGetTotalRubies()" classname="upei.project.PlayersTest" time="0.001"/>
+  <testcase name="testEnteringTheTemple()" classname="upei.project.PlayersTest" time="0.001"/>
+  <testcase name="testSetAndGetTotalTreasures()" classname="upei.project.PlayersTest" time="0.0"/>
+  <system-out><![CDATA[Charlie strides boldly into the cave
+Disaster! Charlie was forced out of the cave and lost all their loot!
+Ivy strides boldly into the cave
+Ivy has left the cave with their loot. Safe travels and get ready for the next adventure!
+Bob strides boldly into the cave
+Bob has left the cave with their loot. Safe travels and get ready for the next adventure!
+Dave strides boldly into the cave
+Dave has left the cave with their loot. Safe travels and get ready for the next adventure!
+Dave has successfully secured their loot, adding 0 treasures to their chest!
+Alice strides boldly into the cave
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
