@@ -1,31 +1,48 @@
+//
+// Source code recreated from a .class file by IntelliJ IDEA
+// (powered by FernFlower decompiler)
+//
 package upei.project;
 
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+/**
+ * The main class
+ * Demonstrates basic functionality such as variable setting, retrieval, and a simple loop.
+ */
 public class Main {
+    private int exampleVar = 0; // Example variable used for demonstration
 
-    private int exampleVar = 0;
-
-    public void setExampleVar(int inVal)
-    {
-        exampleVar = 0;
+    /**
+     * Default constructor for the Main class.
+     */
+    public Main() {
+        // Default constructor logic, if any
     }
 
-    public int getExampleVar()
-    {
-        return exampleVar;
+    /**
+     * Sets the value of the example variable.
+     * @param inVal The value to set for exampleVar.
+     */
+    protected void setExampleVar(int inVal) {
+        this.exampleVar = inVal; // Assigns the provided value to exampleVar
     }
 
+    /**
+     * Retrieves the value of the example variable.
+     * @return The current value of exampleVar.
+     */
+    public int getExampleVar() {
+        return this.exampleVar; // Returns the value of exampleVar
+    }
+
+    /**
+     * The main method, serving as the entry point of the application.
+     * Demonstrates a simple loop that prints numbers from 1 to 5.
+     * @param args Command-line arguments (not used in this application).
+     */
     public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        System.out.println("Hello and welcome!");
 
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
-
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
+        for (int i = 1; i <= 5; ++i) {
             System.out.println("i = " + i);
         }
     }
